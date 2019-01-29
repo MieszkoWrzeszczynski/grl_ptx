@@ -1,0 +1,20 @@
+$Just the typical comment
+
+DEFAULT_SHAPE "square";
+DEFAULT_STYLE "filled";
+BEGIN_D "THE TITLE OF GRAPH";
+$Just the typical comment
+NODE 1 "A";
+NODE 2 "B";
+NODE 3 "C"  SHAPE="circle";
+EDGE 1-->2 "A";
+EDGE 2-->3 "B";
+EDGE 3-->4 "C";
+EDGE 3-->3 "C";
+NODE 4 "C";
+NODE 5 "D" STYLE="filled" SHAPE="octagon";
+NODE 6 "E" STYLE="filled" SHAPE="doublecircle";
+EDGE 3-->4 "D" STYLE="solid";
+EDGE 4-->5;
+EDGE 5-->6 "F";
+END;
